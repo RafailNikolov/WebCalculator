@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    border : 1px solid black;
+    background: grey;
+    width : 400px;
+}
+
+#calcResult {
+    background: lightsteelblue;
+}
+
+button {
+    margin-left: 6px;
+}
+
+#btnDot, #btnStar, #btnSlash, #btnMinus{
+    height: 34px;
+    width: 34px;
+}
+
+#btnClear, #btnBack {
+    width: 68px;
+}
+
+#info{
+    background: lightsteelblue;
+}

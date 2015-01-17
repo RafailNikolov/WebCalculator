@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row" id="calcResult">
+
+            <div class="col-xs-4 .col-xs-offset-4">
+
+                <div class="col-xs-4 col-xs-offset-10">
+
+                    <span>
+
+                        <input type="text" id="num-result" value=""/>
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="currentNum">
+        </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-default" data-val="C" id="btnClear">C</button>
+            <button type="button" class="btn btn-default" data-val="neg" id="btnNegative">-(neg)</button>
+            <button type="button" class="btn btn-default" data-val="back" id="btnBack">&#8592;</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-default"data-val="7">7</button>
+            <button type="button" class="btn btn-default" data-val="8">8</button>
+            <button type="button" class="btn btn-default" data-val="9">9</button>
+            <button type="button" class="btn btn-default" data-val="*" id="btnStar">*</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-default"data-val="4">4</button>
+            <button type="button" class="btn btn-default" data-val="5">5</button>
+            <button type="button" class="btn btn-default" data-val="6">6</button>
+            <button type="button" class="btn btn-default"data-val="/" id="btnSlash">/</button>
+        </div>
+
+        <div class="row">
+           <button type="button" class="btn btn-default" data-val="1">1</button>
+           <button type="button" class="btn btn-default" data-val="2">2</button>
+           <button type="button" class="btn btn-default" data-val="3">3</button>
+           <button type="button" class="btn btn-default" data-val="-" id="btnMinus">-</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-default" id="btnZero" data-val="0">0</button>
+            <button type="button" class="btn btn-default" id="btnDot" data-val=".">.</button>
+            <button type="button" class="btn btn-default" id="btnEqual" data-val="=">=</button>
+            <button type="button" class="btn btn-default" data-val="+">+</button>
+        </div>
+
+        <div class="row" id="info">
+            Make a number negative by entering the number and click on "-(neg)"
+        </div>
+
+    </div>
+
+
+<script src="scripts/libs/jquery-2.1.1.js"></script>
+<script src="scripts/calc.js"></script>
+<script src="scripts/libs/bootstrap.min.js"></script>
+
+</body>
+</html>
