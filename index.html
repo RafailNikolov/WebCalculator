@@ -5,6 +5,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -15,6 +16,10 @@
             <div class="col-xs-4 .col-xs-offset-4">
 
                 <div class="col-xs-4 col-xs-offset-10">
+
+                    <div class="row" id="currentNum">
+                       <span></span>
+                    </div>
 
                     <span>
 
@@ -28,8 +33,6 @@
 
         </div>
 
-        <div class="row" id="currentNum">
-        </div>
 
         <div class="row">
             <button type="button" class="btn btn-default" data-val="C" id="btnClear">C</button>
@@ -38,30 +41,30 @@
         </div>
 
         <div class="row">
-            <button type="button" class="btn btn-default"data-val="7">7</button>
-            <button type="button" class="btn btn-default" data-val="8">8</button>
-            <button type="button" class="btn btn-default" data-val="9">9</button>
+            <button type="button" class="btn btn-info" data-val="7">7</button>
+            <button type="button" class="btn btn-info" data-val="8">8</button>
+            <button type="button" class="btn btn-info" data-val="9">9</button>
             <button type="button" class="btn btn-default" data-val="*" id="btnStar">*</button>
         </div>
 
         <div class="row">
-            <button type="button" class="btn btn-default"data-val="4">4</button>
-            <button type="button" class="btn btn-default" data-val="5">5</button>
-            <button type="button" class="btn btn-default" data-val="6">6</button>
+            <button type="button" class="btn btn-info"data-val="4">4</button>
+            <button type="button" class="btn btn-info" data-val="5">5</button>
+            <button type="button" class="btn btn-info" data-val="6">6</button>
             <button type="button" class="btn btn-default"data-val="/" id="btnSlash">/</button>
         </div>
 
         <div class="row">
-           <button type="button" class="btn btn-default" data-val="1">1</button>
-           <button type="button" class="btn btn-default" data-val="2">2</button>
-           <button type="button" class="btn btn-default" data-val="3">3</button>
+           <button type="button" class="btn btn-info" data-val="1">1</button>
+           <button type="button" class="btn btn-info" data-val="2">2</button>
+           <button type="button" class="btn btn-info" data-val="3">3</button>
            <button type="button" class="btn btn-default" data-val="-" id="btnMinus">-</button>
         </div>
 
         <div class="row">
-            <button type="button" class="btn btn-default" id="btnZero" data-val="0">0</button>
-            <button type="button" class="btn btn-default" id="btnDot" data-val=".">.</button>
-            <button type="button" class="btn btn-default" id="btnEqual" data-val="=">=</button>
+            <button type="button" class="btn btn-info" id="btnZero" data-val="0">0</button>
+            <button type="button" class="btn btn-info" id="btnDot" data-val=".">.</button>
+            <button type="button" class="btn btn-success" id="btnEqual" data-val="=">=</button>
             <button type="button" class="btn btn-default" data-val="+">+</button>
         </div>
 

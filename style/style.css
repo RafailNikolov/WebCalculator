@@ -11,12 +11,13 @@
 
 button {
     margin-left: 6px;
+    height: 60px;
+    width: 60px;
 }
 
 #btnDot, #btnStar, #btnSlash, #btnMinus{
-    height: 34px;
-    width: 34px;
-}
+
+ }
 
 #btnClear, #btnBack {
     width: 68px;
