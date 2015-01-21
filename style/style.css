@@ -15,8 +15,8 @@ button {
     width: 60px;
 }
 
-#btnDot, #btnStar, #btnSlash, #btnMinus{
-
+#currentMath {
+    text-align: right;
  }
 
 #btnClear, #btnBack {

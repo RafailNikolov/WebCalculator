@@ -30,7 +30,7 @@ $(document).ready(function(){
                     sign = val;
                     firstNum = currentNum;
                     currentNum = '';
-                    $('#currentNum > span').text(firstNum + ' ' + sign).appendTo('#currentNum');
+                    $('<span id="currentMath">').text(firstNum + ' ' + sign).appendTo('#currentNum');
                     $('#num-result').val('');
                     enterFirstNum = false;
                 } else if (val === '=') {
